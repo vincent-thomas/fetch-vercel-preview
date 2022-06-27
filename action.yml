@@ -4,9 +4,6 @@ inputs:
   vercel_token:
     description: "The vercel token to use for auth"
     required: true
-  vercel_user_id:
-    description: "The vercel user id to use for auth"
-    required: true
   vercel_project_id:
     description: "The vercel project so this knows which project to fetch from"
     required: true
