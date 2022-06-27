@@ -8345,7 +8345,7 @@ async function main() {
             },
         });
         const url = json.deployments[0].url;
-        _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("preview_url", url);
+        _actions_core__WEBPACK_IMPORTED_MODULE_0__.setOutput("preview_url", `https://${url}`);
     }
     catch (error) {
         _actions_core__WEBPACK_IMPORTED_MODULE_0__.setFailed(error.message);

@@ -18,7 +18,7 @@ async function main() {
     );
 
     const url = json.deployments[0].url;
-    core.setOutput("preview_url", url);
+    core.setOutput("preview_url", `https://${url}`);
   } catch (error) {
     core.setFailed(error.message);
   }
