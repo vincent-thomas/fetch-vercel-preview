@@ -12,4 +12,4 @@ outputs:
     description: "The preview url from vercel"
 runs:
   using: "node16"
-  main: "index.js"
+  main: "dist/index.js"
